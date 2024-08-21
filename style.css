@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+section {
+    background-image: linear-gradient(to bottom, rgb(27 28 39 / 52%), rgb(10 9 10 / 73%)), url(/img/Models/kareya-saleh-tLKOj6cNwe0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    background-position: center;
+    height: 100vh;
+}
+
+.btn .find-more {
+    border: 1px solid black;
+    outline: none;
+}
+
+.btn .find-more:hover {
+    background-color: white;
+    color: red;
+
+}
+
+.font {
+    margin-top: 10%;
+}
+
+.font h1 {
+    font-size: 4rem;
+
+}
+
+.font p {
+    font-size: 1.3rem;
+}
+
+.card-body {
+    background-image: linear-gradient(to bottom, rgb(27 28 39 / 52%), rgb(10 9 10 / 73%)), url(/img/Jeans/sonnie-hiles-gG70fyu3qsg-unsplash.jpg);
+    /* gap: 2rem; */
+    background-position: center;
+    height: 80vh;
+}
+
+.card-body-body-bod {
+    background-image: linear-gradient(to bottom, rgb(27 28 39 / 52%), rgb(10 9 10 / 73%)), url(/img/Jeans/ayo-ogunseinde-NR3meGNbYmM-unsplash.jpg);
+    /* gap: 2rem; */
+    background-position: top;
+    height: 80vh;
+}
+
+.card-body-body-body {
+    background-image: linear-gradient(to bottom, rgb(27 28 39 / 52%), rgb(10 9 10 / 73%)), url(/img/Bracelet/sabrianna-2z7MxnXQs3k-unsplash.jpg);
+    /* gap: 2rem; */
+    background-position: center;
+    height: 80vh;
+}
+
+.line {
+    position: relative;
+}
+
+.line::before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 47%;
+    width: 8%;
+    height: 2px;
+    background: black;
+}
+
+/* .fluid {
+    gap: 1px;
+} */
+.offer {
+    background-image: linear-gradient(to bottom, rgb(27 28 39 / 52%), rgb(10 9 10 / 73%)), url(/img/Models/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-position: right;
+    background-size: center;
+}
+
+.shop-now {
+    border: 2px solid white;
+    padding: 12px;
+    margin-top: 12px;
+}
+
+.link-footer {
+    width: 50%;
+}
+
+.footer {
+    gap: 3rem;
+}
+
+.footer-links {
+    color: gray;
+}
+
+/* .text-resp {
+    font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1920 - 320)));
+    background-color: red;
+} */
